@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Project Phone Basket</string>
+
+    <string name="login">Iniciar sessió</string>
+    <string name="finish">Finalitzar</string>
+    <string name="your_number">El teu numero es:</string>
+    <string name="number_00">000</string>
+    <string name="dont_exit">No surtis d\'aquesta finestra fins que rebis la teva comanda</string>
+    <string name="pay_method">Vols pagar en caixa u online?</string>
+    <string name="cash_register">Caixa</string>
+    <string name="online">Online</string>
+    <string name="name_placeholder">{{Insertar nom del producte aquí}}</string>
+    <string name="price_placeholder">0.00€</string>
+    <string name="x">×</string>
+    <string name="quantity_placeholder">1 unitat</string>
+    <string name="quantity_placeholder_alt">1</string>
+    <string name="equals">=</string>
+    <string name="add">Agregar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="product_photo">Fotografia del producte</string>
+    <string name="del_confirmation">Estas segur que vol eliminar aquest producte?</string>
+
+    <string name="url_empty">Cal posar l\'URL del servidor al que vols accedir</string>
+    <string name="url_error">Aquesta URL no es valida</string>
+</resources>
