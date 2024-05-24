@@ -119,7 +119,7 @@ class ListActivity : AppCompatActivity() {
                     Toast.makeText(this, "Producte agregat a la llista!", Toast.LENGTH_SHORT).show()
 
                     var productCommand = Product_Command(
-                        product_commands.size,
+                        0,
                         data!!.getIntExtra("productId", 0),
                         data!!.getIntExtra("commandId", 0),
                         data!!.getIntExtra("quantity", 1)
@@ -250,6 +250,9 @@ class ListActivity : AppCompatActivity() {
             override fun onResponse(call: Call<Product_Command>, response: Response<Product_Command>) {
                 if (response.isSuccessful) {
                     val o: Product_Command? = response.body()
+
+                    Toast.makeText(this@ListActivity, o?.commandId.toString(), Toast.LENGTH_SHORT).show()
+
                 } else {
                     Log.d("resposta", response.body().toString())
                     Toast.makeText(this@ListActivity, "El valor enviat no es compatible", Toast.LENGTH_SHORT).show()
